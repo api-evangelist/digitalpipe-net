@@ -64,5 +64,125 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-digitalpipe-net is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://digitalpipe.net/
+DigitalPipe provides a control layer for Managed Cloud Platform (MCP) traffic, offering a unified endpoint to route, inspect, and control tool calls across various services such as databases, payment processors, and CRM systems. Their platform enables one‑click kill switches, audit logging, and security controls, reducing operational risk and simplifying credential management for agents interacting with external APIs. The service includes both cloud‑hosted and self‑hosted deployment options, with tiered pricing plans for teams of any size.
+
+**Areas:** Company · MCP · API Management · Security · Cloud
+
+## digitalpipe-net on APIs.io
+
+Everything profiled for digitalpipe-net is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/digitalpipe-net/](https://apis.io/providers/digitalpipe-net/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [DigitalPipe API](https://apis.io/apis/digitalpipe-net/digitalpipe-api/) — API for DigitalPipe platform to manage cloud traffic, routing, inspection, and security controls.
+- [digitalpipe-net API](https://apis.io/apis/digitalpipe-net/digitalpipe-net-api/) — digitalpipe-net API as documented publicly: 24 operations. Contract generated from the documentation by API Evangelist (2026-10-30); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiAuditFlaggedResponse](https://apis.io/schemas/digitalpipe-net/digitalpipe-net-get-api-audit-flagged-response/)
+- [GetApiHostedMcpCatalogResponse](https://apis.io/schemas/digitalpipe-net/digitalpipe-net-get-api-hosted-mcp-catalog-response/)
+- [GetApiMetricsManifoldResponse](https://apis.io/schemas/digitalpipe-net/digitalpipe-net-get-api-metrics-manifold-response/)
+- [PostApiHostedMcpIdProxyRequest](https://apis.io/schemas/digitalpipe-net/digitalpipe-net-post-api-hosted-mcp-id-proxy-request/)
+- [PostApiManifoldIdToolsCallRequest](https://apis.io/schemas/digitalpipe-net/digitalpipe-net-post-api-manifold-id-tools-call-request/)
+- [PostApiManifoldIdToolsCallResponse](https://apis.io/schemas/digitalpipe-net/digitalpipe-net-post-api-manifold-id-tools-call-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Digitalpipe Net Context](https://apis.io/jsonld/digitalpipe-net/digitalpipe-net-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [digitalpipe-net API Rules](https://apis.io/rules/digitalpipe-net/digitalpipe-net-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Digitalpipe Net Authentication](https://apis.io/security/digitalpipe-net/digitalpipe-net-authentication/)
+- [Digitalpipe Net Domain Security](https://apis.io/security/digitalpipe-net/digitalpipe-net-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Digitalpipe Net Plans Pricing](https://apis.io/plans/digitalpipe-net/digitalpipe-net-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://digitalpipe.net/)
+- [Documentation](https://digitalpipe.net/docs/pipes)
+- [Getting started](https://digitalpipe.net/docs/quickstart)
+- [API reference](https://digitalpipe.net/docs/api)
+- [Pricing](https://digitalpipe.net/pricing)
+- [Support](https://app.digitalpipe.net/support)
+- [Trust centre](https://app.digitalpipe.net/trust)
+- [Terms of service](https://digitalpipe.net/legal/terms)
+- [Privacy policy](https://digitalpipe.net/legal/privacy)
+- [Status](https://digitalpipe.net/status)
+
+## API Evangelist rating
+
+**Kin Score 59.5** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.6 |
+| Contract quality | 55.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 81.1 |
+
+**Agent readiness 20.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/digitalpipe-net/](https://apis.io/providers/digitalpipe-net/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for digitalpipe-net: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/digitalpipe-net/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
